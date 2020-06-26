@@ -17,7 +17,7 @@ public class PropertyFileReading {
 
 	public PropertyFileReading(){
 		{
-			file = new File(System.getProperty("user.dir") + "\\src\\main\\resources\\config.properties"); 
+			file = new File(System.getProperty("user.dir") + "\\src\\test\\resources\\configurations"); 
 			try {
 				fis = new FileInputStream(file);
 			} catch (FileNotFoundException e) {
