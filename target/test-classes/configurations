@@ -1,0 +1,6 @@
+browserName=Chrome
+url=https://www.amazon.com/
+implicitlyWait=10
+geckoDriverExe = D:\\Eclipse\\geckodriver-v0.26.0-win64\\geckodriver.exe
+chomeDriverExe = D:\\Eclipse\\chromedriver_win32\\chromedriver.exe
+Home = Y

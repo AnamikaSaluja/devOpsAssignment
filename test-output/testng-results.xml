@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-22T17:21:48 IST" name="Default suite" finished-at="2020-05-22T17:22:22 IST" duration-ms="34234">
+    <groups>
+    </groups>
+    <test started-at="2020-05-22T17:21:48 IST" name="Default test" finished-at="2020-05-22T17:22:22 IST" duration-ms="34234">
+      <class name="TestCases.searches">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.searches@38467116]" started-at="2020-05-22T17:21:40 IST" name="openBrowser" finished-at="2020-05-22T17:21:48 IST" duration-ms="8332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCases.searches@38467116]" started-at="2020-05-22T17:21:48 IST" name="init" finished-at="2020-05-22T17:21:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Home()[pri:0, instance:TestCases.searches@38467116]" started-at="2020-05-22T17:21:48 IST" name="Home" finished-at="2020-05-22T17:22:22 IST" duration-ms="33766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home -->
+        <test-method is-config="true" signature="quit(org.testng.ITestResult)[pri:0, instance:TestCases.searches@38467116]" started-at="2020-05-22T17:22:22 IST" name="quit" finished-at="2020-05-22T17:22:22 IST" duration-ms="417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Home status=SUCCESS method=searches.Home()[pri:0, instance:TestCases.searches@38467116] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.searches@38467116]" started-at="2020-05-22T17:22:22 IST" name="tearDown" finished-at="2020-05-22T17:22:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.searches -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

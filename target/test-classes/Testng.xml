@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Amazon_Assignment">
+<listeners>
+<listener class-name = "testng_Listners.cutomListeners" />
+</listeners>
+
+<test name = "HomePage">
+<classes>
+    <class name="TestCases.Test1"/> 
+  </classes>
+</test>
+</suite>
