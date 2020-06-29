@@ -39,9 +39,9 @@ pipeline
 			{
 				rtMavenDeployer (
                     id: 'deployer',
-                    serverId: '123456789@artifactory',
-                    releaseRepo: 'test-pipeline',
-                    snapshotRepo: 'test-pipeline'
+                    serverId: 'anamika_assignment@artifactory',
+                    releaseRepo: 'Anamika_devops_assignmnet',
+                    snapshotRepo: 'Anamika_devops_assignmnet'
                 )
                 rtMavenRun (
                     pom: 'pom.xml',
@@ -49,7 +49,7 @@ pipeline
                     deployerId: 'deployer',
                 )
                 rtPublishBuildInfo (
-                    serverId: '123456789@artifactory',
+                    serverId: 'anamika_assignment@artifactory',
                 )
 			}
 		}
